@@ -1,0 +1,12 @@
+# Utility scripts (data preparation only, not part of the website)
+get-place-ids.js
+get-place-ids.py
+retry-missing.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc

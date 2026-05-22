@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeanDigest – World's Best Cafés</title>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#2A1610">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="brand-name">BeanDigest</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="filter-bar" id="filter-bar">
+    <div class="filter-bar-inner">
+      <div class="filter-group search-group">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="search" id="search-input" placeholder="Search by name...">
+      </div>
+
+      <div class="filter-group">
+        <label class="filter-label" for="org-year-filter">Organization &amp; Year</label>
+        <select id="org-year-filter">
+          <option value="">All Organizations</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label class="filter-label">Country</label>
+        <select id="country-filter" style="display:none"></select>
+        <div class="custom-select" id="country-select">
+          <button class="custom-select-btn" id="country-select-btn" type="button">
+            <span class="custom-select-value">All Countries</span>
+            <svg class="custom-select-chevron" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="custom-select-menu" id="country-select-menu"></div>
+        </div>
+      </div>
+
+      <button id="clear-btn" class="clear-btn" title="Clear filters">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        Clear
+      </button>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="results-count" id="results-count">Loading...</div>
+    <div class="view-tabs">
+      <button class="view-tab active" data-view="list" title="List view">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+        List
+      </button>
+      <button class="view-tab" data-view="map" title="Map view">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+        Map
+      </button>
+    </div>
+  </div>
+
+  <main>
+    <section id="list-view" class="view-section active">
+      <div id="shop-grid" class="shop-grid"></div>
+      <div id="no-results" class="no-results" style="display:none;">
+        <p>No shops match your filters.</p>
+        <button onclick="document.getElementById('clear-btn').click()">Clear Filters</button>
+      </div>
+    </section>
+
+    <section id="map-view" class="view-section">
+      <div id="map"></div>
+      <div id="map-placeholder" class="map-placeholder">
+        <div class="map-placeholder-inner">
+          <span class="map-placeholder-icon">&#128506;</span>
+          <h3>Google Maps Integration</h3>
+          <p>To enable the map view, add your Google Maps API key in <code>script.js</code>.</p>
+          <p class="map-hint">Open <code>script.js</code> and replace <code>YOUR_API_KEY_HERE</code> with your key.</p>
+          <a href="README.md" class="map-link" target="_blank">Setup instructions →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-sources">
+        <span class="footer-label">Data sources:</span>
+        <a href="https://theworlds100bestcoffeeshops.com/" target="_blank" rel="noopener">The World's 100 Best Coffee Shops</a>
+        <span class="footer-sep">·</span>
+        <a href="https://globalcoffeeawards.com/" target="_blank" rel="noopener">Global Coffee Awards (GCA)</a>
+        <span class="footer-sep">·</span>
+        <a href="https://roastmagazine.com/" target="_blank" rel="noopener">Roast Magazine</a>
+        <span class="footer-sep">·</span>
+        <a href="https://roastful.com/" target="_blank" rel="noopener">Roastful</a>
+      </div>
+      <div class="footer-meta">
+        <span class="brand-tagline">// world's best cafés, brewed</span>
+        <span class="footer-sep">·</span>
+        <span>Last updated: May 2026</span>
+        <span class="footer-sep">·</span>
+        <span>powered by <a href="https://suno.com/@crazyzenmonk" target="_blank" rel="noopener">CZM PROJECT</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

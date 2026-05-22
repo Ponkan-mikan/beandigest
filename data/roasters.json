@@ -1,0 +1,4494 @@
+{
+  "organizations": [
+    {
+      "id": "worlds-100-best",
+      "name": "The World's 100 Best Coffee Shops",
+      "shortName": "World's 100 Best",
+      "url": "https://theworlds100bestcoffeeshops.com/",
+      "urlTemplate": "https://theworlds100bestcoffeeshops.com/locales/{id}/",
+      "color": "#C8860A"
+    },
+    {
+      "id": "gca",
+      "name": "Global Coffee Awards (GCA)",
+      "shortName": "GCA",
+      "url": "https://globalcoffeeawards.com/",
+      "color": "#2D6A4F",
+      "description": "欧州・北米・Origin・World決勝カテゴリー Gold以上",
+      "categoryUrlMap": {
+        "Europe": "https://globalcoffeeawards.com/winners-europe/",
+        "US & Canada": "https://globalcoffeeawards.com/winners-us-canada/",
+        "Origin": "https://globalcoffeeawards.com/winners-origin/",
+        "World": "https://globalcoffeeawards.com/"
+      }
+    },
+    {
+      "id": "roast-magazine",
+      "name": "Roast Magazine – Roaster of the Year",
+      "shortName": "Roast Magazine",
+      "url": "https://www.roastmagazine.com/roasteroftheyear/",
+      "color": "#8B1A1A"
+    },
+    {
+      "id": "roastful",
+      "name": "Roastful Top 100",
+      "shortName": "Roastful",
+      "url": "https://www.roastful.com/top-roasters",
+      "color": "#1B4F72"
+    }
+  ],
+  "entries": [
+    {
+      "id": "onyx-coffee-lab",
+      "name": "Onyx Coffee LAB",
+      "city": "Rogers, AR",
+      "country": "USA",
+      "cc": "US",
+      "lat": 36.33,
+      "lng": -94.12,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 1
+        },
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 8
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ69YkJF8XyYcRPRhCrzW3pso"
+    },
+    {
+      "id": "tim-wendelboe",
+      "name": "Tim Wendelboe",
+      "city": "Oslo",
+      "country": "Norway",
+      "cc": "NO",
+      "lat": 59.92,
+      "lng": 10.75,
+      "url": "https://timwendelboe.no",
+      "mapsUrl": "https://maps.app.goo.gl/K83bBzeKWNPq2zcm9",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 2
+        },
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "alquimia-coffee",
+      "name": "Alquimia Coffee",
+      "city": "San Salvador",
+      "country": "El Salvador",
+      "cc": "SV",
+      "lat": 13.69,
+      "lng": -89.22,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 3
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJaThypYAxY48Rl3_ah7NuGuo"
+    },
+    {
+      "id": "only-coffee-project",
+      "name": "Only Coffee Project Crows Nest",
+      "city": "Sydney",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -33.83,
+      "lng": 151.21,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 4
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJWPz6M6vEmsR34uUIX1KxjA"
+    },
+    {
+      "id": "tobys-estate",
+      "name": "Toby's Estate Coffee Roasters",
+      "city": "Sydney",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -33.87,
+      "lng": 151.2,
+      "url": "https://tobysestate.com.au",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 5
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJR-S-I9axEmsRGjjcmNfvx6k"
+    },
+    {
+      "id": "apartment-coffee",
+      "name": "Apartment Coffee",
+      "city": "Singapore",
+      "country": "Singapore",
+      "cc": "SG",
+      "lat": 1.29,
+      "lng": 103.83,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 6
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJyRJvdrMZ2jERpcCkSyqNYI8"
+    },
+    {
+      "id": "gota-coffee-experts",
+      "name": "Gota Coffee Experts",
+      "city": "Vienna",
+      "country": "Austria",
+      "cc": "AT",
+      "lat": 48.21,
+      "lng": 16.37,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 7
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJwbDyoByobUcRvdlHTwmOZ30"
+    },
+    {
+      "id": "story-of-ono",
+      "name": "Story of Ono",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "cc": "MY",
+      "lat": 3.15,
+      "lng": 101.69,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 8
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJf_gKT1lJzDER9bYg7pl5c98"
+    },
+    {
+      "id": "tropicalia-coffee",
+      "name": "Tropicalia Coffee",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "cc": "CO",
+      "lat": 4.71,
+      "lng": -74.07,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 9
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJE0prjS-bP44R92imaf-A6Nw"
+    },
+    {
+      "id": "tanat",
+      "name": "Tanat",
+      "city": "Paris",
+      "country": "France",
+      "cc": "FR",
+      "lat": 48.87,
+      "lng": 2.33,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 10
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJMZyEQZ1v5kcRMQfnT_I-Co8"
+    },
+    {
+      "id": "fankor",
+      "name": "FANKØR",
+      "city": "Quito",
+      "country": "Ecuador",
+      "cc": "EC",
+      "lat": -0.23,
+      "lng": -78.52,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 11
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxxYp4HCa1ZERZO4l0kLrG6U"
+    },
+    {
+      "id": "arcane-estate-coffee",
+      "name": "Arcane Estate Coffee",
+      "city": "",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.09,
+      "lng": -95.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 12
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ-ZM95ipZwokRSpLxKOPMcvQ"
+    },
+    {
+      "id": "beta-coffee",
+      "name": "Beta Coffee",
+      "city": "Sydney",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -33.87,
+      "lng": 151.21,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 13
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJTdOcfACvEmsRaOwUBf8ZlNQ"
+    },
+    {
+      "id": "nomadic-specialty-coffee",
+      "name": "Nomadic Specialty Coffee",
+      "city": "Cairo",
+      "country": "Egypt",
+      "cc": "EG",
+      "lat": 30.04,
+      "lng": 31.24,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 14
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJq1JrczxBWBQRPvv_FUPzR7M"
+    },
+    {
+      "id": "nemesis-coffee",
+      "name": "Nemesis Coffee",
+      "city": "Vancouver",
+      "country": "Canada",
+      "cc": "CA",
+      "lat": 49.28,
+      "lng": -123.12,
+      "url": "https://nemesiscoffee.com",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 15
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJZzxdHW9xhlQRKS9s0XXYUZQ"
+    },
+    {
+      "id": "nomad-frutas-selectas",
+      "name": "Nomad Frutas Selectas",
+      "city": "",
+      "country": "Spain",
+      "cc": "ES",
+      "lat": 40.42,
+      "lng": -3.7,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 16
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJCxTboBejpBIR8GcUr2oqVjc"
+    },
+    {
+      "id": "kafi-wasi",
+      "name": "Kafi Wasi Café Tostaduría",
+      "city": "Lima",
+      "country": "Peru",
+      "cc": "PE",
+      "lat": -12.05,
+      "lng": -77.04,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 17
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJw9QmKVpKQpERH3VzVL5rquQ"
+    },
+    {
+      "id": "benchmark-coffee",
+      "name": "Benchmark Coffee",
+      "city": "Dubai",
+      "country": "UAE",
+      "cc": "AE",
+      "lat": 25.2,
+      "lng": 55.27,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 18
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJnYiIXsJfXz4R5QsJ2LSuGeU"
+    },
+    {
+      "id": "hola-coffee-lagasca",
+      "name": "Hola Coffee Lagasca",
+      "city": "Madrid",
+      "country": "Spain",
+      "cc": "ES",
+      "lat": 40.43,
+      "lng": -3.69,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 19
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJee89rmEpQg0RE4i5iUYd7cY"
+    },
+    {
+      "id": "blendin-coffee-club",
+      "name": "BlendIn Coffee Club",
+      "city": "Sugar Land, TX",
+      "country": "USA",
+      "cc": "US",
+      "lat": 29.62,
+      "lng": -95.64,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 20
+        },
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ28Edzt7mQIYR0DLE89wdcAI"
+    },
+    {
+      "id": "holaste-specialty-coffee",
+      "name": "Holaste! Specialty Coffee",
+      "city": "Santiago",
+      "country": "Chile",
+      "cc": "CL",
+      "lat": -33.45,
+      "lng": -70.67,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 21
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_UvbCAHor70RliTanu1FErM"
+    },
+    {
+      "id": "momos-coffee",
+      "name": "Momos Coffee Flagship Store",
+      "city": "Seoul",
+      "country": "South Korea",
+      "cc": "KR",
+      "lat": 37.57,
+      "lng": 126.98,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 22
+        },
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 14
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJreN6qpCTaDUR9xahob7glK4"
+    },
+    {
+      "id": "monotono-specialty-coffee",
+      "name": "Monotono Specialty Coffee",
+      "city": "Lima",
+      "country": "Peru",
+      "cc": "PE",
+      "lat": -12.04,
+      "lng": -77.03,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 23
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJfU8DN1S3BZERWgyYqAKGe_Q"
+    },
+    {
+      "id": "ult-coffee",
+      "name": "Ult Coffee",
+      "city": "Tokyo",
+      "country": "Japan",
+      "cc": "JP",
+      "lat": 35.69,
+      "lng": 139.69,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 24
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPzXKAF3nAGARO-sIUCzd8o0"
+    },
+    {
+      "id": "el-injerto",
+      "name": "El Injerto",
+      "city": "Guatemala City",
+      "country": "Guatemala",
+      "cc": "GT",
+      "lat": 14.64,
+      "lng": -90.51,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 25
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVQHAqeCjiYURFi906rCRYVw"
+    },
+    {
+      "id": "three-monkeys-coffee",
+      "name": "Three Monkeys Coffee",
+      "city": "Lima",
+      "country": "Peru",
+      "cc": "PE",
+      "lat": -12.06,
+      "lng": -77.04,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 26
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJp_2dvHTWbZER2CSJp4ymzdA"
+    },
+    {
+      "id": "proud-mary-coffee",
+      "name": "Proud Mary Coffee",
+      "city": "Melbourne",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -37.81,
+      "lng": 144.96,
+      "url": "https://proudmarycoffee.com",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 27
+        },
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 36
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQZ-aOeBC1moRuuo3eAh3hGE"
+    },
+    {
+      "id": "koffee-mameya-kakeru",
+      "name": "Koffee Mameya Kakeru",
+      "city": "Tokyo",
+      "country": "Japan",
+      "cc": "JP",
+      "lat": 35.65,
+      "lng": 139.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 28
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ9f0aP7iJGGAR3BB7LqfZdhE"
+    },
+    {
+      "id": "coffee-anthology",
+      "name": "Coffee Anthology",
+      "city": "Melbourne",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -37.82,
+      "lng": 144.97,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 29
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJw76Y3BpakWsRXyeQwsvJP4k"
+    },
+    {
+      "id": "7g-roaster",
+      "name": "7g Roaster",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "cc": "PT",
+      "lat": 38.72,
+      "lng": -9.14,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 30
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJXVSKr99kJA0R0SDEIvQdji0"
+    },
+    {
+      "id": "espresso-alchemy",
+      "name": "Espresso Alchemy",
+      "city": "Shanghai",
+      "country": "China",
+      "cc": "CN",
+      "lat": 31.22,
+      "lng": 121.47,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 31
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJM0RNus16sjURQfvstlG1kGc"
+    },
+    {
+      "id": "coffeewerk-press",
+      "name": "Coffeewerk + Press",
+      "city": "Galway",
+      "country": "Ireland",
+      "cc": "IE",
+      "lat": 53.27,
+      "lng": -9.05,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 32
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJd4-52PqWW0gRMXjme0kBpQE"
+    },
+    {
+      "id": "typica-cafe",
+      "name": "Typica Café",
+      "city": "La Paz",
+      "country": "Bolivia",
+      "cc": "BO",
+      "lat": -16.5,
+      "lng": -68.15,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 33
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ0ePSiGEgX5ERIiffYkZNzqM"
+    },
+    {
+      "id": "yardstick",
+      "name": "Yardstick",
+      "city": "Makati",
+      "country": "Philippines",
+      "cc": "PH",
+      "lat": 14.55,
+      "lng": 121.02,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 34
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJzYhojg7JlzMReOOd-mRcuU8"
+    },
+    {
+      "id": "historico",
+      "name": "Histórico",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "cc": "MX",
+      "lat": 19.43,
+      "lng": -99.13,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 35
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJBWyb03b50YURZ0U082vdTbM"
+    },
+    {
+      "id": "coffee-sind",
+      "name": "Coffee Sind",
+      "city": "Taipei",
+      "country": "Taiwan",
+      "cc": "TW",
+      "lat": 25.05,
+      "lng": 121.53,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 36
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8VZ0R9KrQjQRBCANnVHpH0k"
+    },
+    {
+      "id": "delafinca-specialty-coffee",
+      "name": "DeLafinca Specialty Coffee",
+      "city": "Managua",
+      "country": "Nicaragua",
+      "cc": "NI",
+      "lat": 12.13,
+      "lng": -86.28,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 37
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Flat White Dairy Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJa01tuOj_c48RW1qj8e1IcRg"
+    },
+    {
+      "id": "ottoman-coffee-house",
+      "name": "Ottoman Coffee House",
+      "city": "London",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 51.51,
+      "lng": -0.13,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 38
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC3Ir0StEiEgRrbupEq1bbKU"
+    },
+    {
+      "id": "casa-canela",
+      "name": "Casa Canela",
+      "city": "Caracas",
+      "country": "Venezuela",
+      "cc": "VE",
+      "lat": 10.49,
+      "lng": -66.88,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 39
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJqZuWw8X3KowRYG5yIx6IzQc"
+    },
+    {
+      "id": "espresso-lab",
+      "name": "Espresso LAB",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "cc": "ZA",
+      "lat": -33.93,
+      "lng": 18.42,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 40
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr4bbS6FdzB0RsBN3BXhWPhY"
+    },
+    {
+      "id": "seven-mystery",
+      "name": "Seven Mystery",
+      "city": "Toronto",
+      "country": "Canada",
+      "cc": "CA",
+      "lat": 43.65,
+      "lng": -79.38,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 41
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJMx5T7d7R1IkRRtSxxXYXRio"
+    },
+    {
+      "id": "faro",
+      "name": "Faro",
+      "city": "Rome",
+      "country": "Italy",
+      "cc": "IT",
+      "lat": 41.9,
+      "lng": 12.5,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 42
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJO2OdIAlhLxMRV3acpzJo9ls"
+    },
+    {
+      "id": "domestique",
+      "name": "Domestique",
+      "city": "Washington DC",
+      "country": "USA",
+      "cc": "US",
+      "lat": 38.91,
+      "lng": -77.04,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 43
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjWXwtTq5t4kRt1EbQBeythk"
+    },
+    {
+      "id": "harvest-coffee",
+      "name": "Harvest Coffee",
+      "city": "Doha",
+      "country": "Qatar",
+      "cc": "QA",
+      "lat": 25.29,
+      "lng": 51.53,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 44
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJTc_PLFTDRT4RK2i4lEdnDBQ"
+    },
+    {
+      "id": "origen-tostadores",
+      "name": "Origen Tostadores de Café",
+      "city": "Lima",
+      "country": "Peru",
+      "cc": "PE",
+      "lat": -12.07,
+      "lng": -77.03,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 45
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ7bkjXRrJBZERq-ZjyKafpVw"
+    },
+    {
+      "id": "keep-coffee-roastery",
+      "name": "KEEP Coffee Roastery",
+      "city": "Taipei",
+      "country": "Taiwan",
+      "cc": "TW",
+      "lat": 25.04,
+      "lng": 121.51,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 46
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQ2AcTgAFbjQR3umLltEZa7s"
+    },
+    {
+      "id": "meet-lab-coffee",
+      "name": "Meet LAB Coffee",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "cc": "TR",
+      "lat": 41.01,
+      "lng": 28.97,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 47
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJyxeACs3HyhQRPnO3V_uts2w"
+    },
+    {
+      "id": "mulano-coffee-shop",
+      "name": "Mulano Coffee Shop",
+      "city": "Quito",
+      "country": "Ecuador",
+      "cc": "EC",
+      "lat": -0.18,
+      "lng": -78.47,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 48
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJW517-9FfM5ARZw0P9UnFYE8"
+    },
+    {
+      "id": "la-cabra",
+      "name": "La Cabra",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "cc": "DK",
+      "lat": 55.68,
+      "lng": 12.57,
+      "url": "https://lacabra.dk",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 49
+        },
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 5
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJY0fu5htTUkYRO2tdIjbz2F4"
+    },
+    {
+      "id": "birch-coffee",
+      "name": "Birch Coffee",
+      "city": "London",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 51.5,
+      "lng": -0.12,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 50
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJa_9BRZpxj0gRMDlkod-XSVw"
+    },
+    {
+      "id": "ruli-coffee",
+      "name": "Ruli Coffee",
+      "city": "Seoul",
+      "country": "South Korea",
+      "cc": "KR",
+      "lat": 37.56,
+      "lng": 126.97,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 51
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJHzt-ymGjfDURkT4KwSX7OJk"
+    },
+    {
+      "id": "atte-for-coffee",
+      "name": "Atte For Coffee",
+      "city": "Guatemala City",
+      "country": "Guatemala",
+      "cc": "GT",
+      "lat": 14.63,
+      "lng": -90.52,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 52
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJSVkqDh-jiYURBsdUH81sPXw"
+    },
+    {
+      "id": "single-o",
+      "name": "Single O",
+      "city": "Sydney",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -33.87,
+      "lng": 151.2,
+      "url": "https://singleosydney.com",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 53
+        },
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJNUOUhSKuEmsRj2F2Arcx_OQ"
+    },
+    {
+      "id": "rubia-coffee-roasters",
+      "name": "Rubia Coffee Roasters",
+      "city": "Kigali",
+      "country": "Rwanda",
+      "cc": "RW",
+      "lat": -1.94,
+      "lng": 30.06,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 54
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJmRj6DD6n3BkRdN-7sTluJow"
+    },
+    {
+      "id": "bob-coffee-lab",
+      "name": "Bob Coffee Lab",
+      "city": "Bucharest",
+      "country": "Romania",
+      "cc": "RO",
+      "lat": 44.43,
+      "lng": 26.1,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 55
+        },
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_2_ARxECskARB2FOReTzY1A"
+    },
+    {
+      "id": "unfiltered-coffee",
+      "name": "Unfiltered coffee",
+      "city": "Dublin",
+      "country": "Ireland",
+      "cc": "IE",
+      "lat": 53.33,
+      "lng": -6.25,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 56
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJzRrS4moNZ0gRRnJAToP-ei0"
+    },
+    {
+      "id": "tomorrow-coffee-roasters",
+      "name": "Tomorrow Coffee Roasters",
+      "city": "Taipei",
+      "country": "Taiwan",
+      "cc": "TW",
+      "lat": 25.06,
+      "lng": 121.52,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 57
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJm2hu1FE9aTQR554txT8MhiQ"
+    },
+    {
+      "id": "ca-passe-creme",
+      "name": "Ca Passe Creme",
+      "city": "Bern",
+      "country": "Switzerland",
+      "cc": "CH",
+      "lat": 46.95,
+      "lng": 7.45,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 58
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJwwgZAj8vjEcRpBWp4kUVYBg"
+    },
+    {
+      "id": "eco-mapu",
+      "name": "Eco Mapu",
+      "city": "Santiago",
+      "country": "Chile",
+      "cc": "CL",
+      "lat": -33.44,
+      "lng": -70.65,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 59
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJgUqFSixjFJYR5Zp_nLHNQjU"
+    },
+    {
+      "id": "43-12-coffee",
+      "name": "43.12 Coffee",
+      "city": "Sofia",
+      "country": "Bulgaria",
+      "cc": "BG",
+      "lat": 42.7,
+      "lng": 23.32,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 60
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJlavUNzeFqkARmhhG7HetjJ0"
+    },
+    {
+      "id": "fika-and-co-cafe",
+      "name": "Fika & Co. Cafe",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "cc": "TH",
+      "lat": 13.76,
+      "lng": 100.5,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 61
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhQyrwKWf4jAR-19b465sv0U"
+    },
+    {
+      "id": "ditta-artigianale",
+      "name": "Ditta Artigianale Specialty Coffee Roasters",
+      "city": "Florence",
+      "country": "Italy",
+      "cc": "IT",
+      "lat": 43.77,
+      "lng": 11.25,
+      "url": "https://dittaartigianale.it",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 62
+        },
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ37m7WBtUKhMR7it67hWL8rw"
+    },
+    {
+      "id": "cafe-nativo",
+      "name": "Café Nativo",
+      "city": "Tegucigalpa",
+      "country": "Honduras",
+      "cc": "HN",
+      "lat": 14.09,
+      "lng": -87.21,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 63
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJecc6kNSib48RZbJy1iAo3oc"
+    },
+    {
+      "id": "caferatto",
+      "name": "Caferatto",
+      "city": "Medellín",
+      "country": "Colombia",
+      "cc": "CO",
+      "lat": 6.24,
+      "lng": -75.57,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 64
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJbZJ-131lR44R2JEnL7ITViI"
+    },
+    {
+      "id": "kross-coffee-roasters",
+      "name": "Kross Coffee Roasters",
+      "city": "Athens",
+      "country": "Greece",
+      "cc": "GR",
+      "lat": 37.98,
+      "lng": 23.73,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 65
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ19AkGQO9oRQRM4kn0UcLoIo"
+    },
+    {
+      "id": "prevail-coffee",
+      "name": "Prevail Coffee",
+      "city": "",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.09,
+      "lng": -95.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 66
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ9ZzJY26BjogRvJF7ZYPW-t4"
+    },
+    {
+      "id": "mok-coffee",
+      "name": "MOK Coffee",
+      "city": "Brussels",
+      "country": "Belgium",
+      "cc": "BE",
+      "lat": 50.85,
+      "lng": 4.35,
+      "url": "https://mokcoffee.be",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 67
+        },
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJleDmRYnDw0cR9EQIf57vU1A"
+    },
+    {
+      "id": "azura-the-coffee-company",
+      "name": "Azura – The Coffee Company",
+      "city": "Muscat",
+      "country": "Oman",
+      "cc": "OM",
+      "lat": 23.61,
+      "lng": 58.59,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 68
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJNa__g0z_kT4RTO7zBO4NO_U"
+    },
+    {
+      "id": "puku-puku",
+      "name": "Puku Puku",
+      "city": "Lima",
+      "country": "Peru",
+      "cc": "PE",
+      "lat": -12.06,
+      "lng": -77.03,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 69
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJKbMuykDIBZERY2KTTv-5CvU"
+    },
+    {
+      "id": "the-golden-pig",
+      "name": "The Golden Pig",
+      "city": "",
+      "country": "Honduras",
+      "cc": "HN",
+      "lat": 14.1,
+      "lng": -87.2,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 70
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJXcUyZKlbZo8RkmDd1SUWJns"
+    },
+    {
+      "id": "little-victories-coffee",
+      "name": "Little Victories Coffee",
+      "city": "",
+      "country": "Canada",
+      "cc": "CA",
+      "lat": 43.65,
+      "lng": -79.38,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 71
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2yYYHgAFzkwRjGU5BPXLEGY"
+    },
+    {
+      "id": "push-pull",
+      "name": "Push Pull",
+      "city": "",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.09,
+      "lng": -95.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 72
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ18MWiNqMGGARsZO5vEUCONc"
+    },
+    {
+      "id": "galani-coffee",
+      "name": "Galani Coffee",
+      "city": "Addis Ababa",
+      "country": "Ethiopia",
+      "cc": "ET",
+      "lat": 9.03,
+      "lng": 38.74,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 73
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Espresso Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJBwcN3DSFSxYRTgyrT2-XSx4"
+    },
+    {
+      "id": "wake-up",
+      "name": "Wake up",
+      "city": "Santiago",
+      "country": "Chile",
+      "cc": "CL",
+      "lat": -33.46,
+      "lng": -70.66,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 74
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJfcioFhjFYpYR8i_zxEEiGSM"
+    },
+    {
+      "id": "bouche",
+      "name": "Bouche",
+      "city": "Brussels",
+      "country": "Belgium",
+      "cc": "BE",
+      "lat": 50.84,
+      "lng": 4.36,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 75
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJeaHQeG_Fw0cRqnvYPuQe9Fo"
+    },
+    {
+      "id": "cafe-de-reyes",
+      "name": "Café de Reyes",
+      "city": "Antigua",
+      "country": "Guatemala",
+      "cc": "GT",
+      "lat": 14.56,
+      "lng": -90.73,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 76
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJmf9bdS69joUR1PyBjmaNPzw"
+    },
+    {
+      "id": "savaya-coffee-market",
+      "name": "Savaya Coffee Market",
+      "city": "Tucson, AZ",
+      "country": "USA",
+      "cc": "US",
+      "lat": 32.22,
+      "lng": -110.97,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 77
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJg0Rtsxlu1oYROpPxB4ybO2k"
+    },
+    {
+      "id": "coffee-stopover-black",
+      "name": "Coffee Stopover Black",
+      "city": "Taipei",
+      "country": "Taiwan",
+      "cc": "TW",
+      "lat": 25.05,
+      "lng": 121.52,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 78
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJETLw9RA9aTQR1cvQ0_tjubc"
+    },
+    {
+      "id": "fuku",
+      "name": "Fuku",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "cc": "NL",
+      "lat": 52.37,
+      "lng": 4.9,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 79
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxdi9WYbjxUcRBmM4a_wJuHI"
+    },
+    {
+      "id": "the-miners-coffee",
+      "name": "The Miners Coffee",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "cc": "CZ",
+      "lat": 50.08,
+      "lng": 14.44,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 80
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ3XqKYCGVC0cRYE5lAu_5hSY"
+    },
+    {
+      "id": "cupping-cafe",
+      "name": "Cupping Café",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "cc": "BR",
+      "lat": -23.55,
+      "lng": -46.63,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 81
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJe45oNJZXzpQRUXYN4bE42h8"
+    },
+    {
+      "id": "coffea-guatemala",
+      "name": "Coffea Guatemala",
+      "city": "Guatemala City",
+      "country": "Guatemala",
+      "cc": "GT",
+      "lat": 14.64,
+      "lng": -90.51,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 82
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJYe-Gfh4PiYURZNzAFxBrzhQ"
+    },
+    {
+      "id": "d-origen-barcelona",
+      "name": "D·Origen Coffee Roasters Barcelona",
+      "city": "Barcelona",
+      "country": "Spain",
+      "cc": "ES",
+      "lat": 41.39,
+      "lng": 2.15,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 83
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJh8WGFmOjpBIRJJSxIgnLghw"
+    },
+    {
+      "id": "coffee-stain",
+      "name": "Coffee Stain",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "cc": "MY",
+      "lat": 3.14,
+      "lng": 101.7,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 84
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJuyzQXwBJzDERvKyfr0dw66A"
+    },
+    {
+      "id": "the-dude-specialty-coffee",
+      "name": "The Dude Specialty Coffee",
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "cc": "MK",
+      "lat": 41.99,
+      "lng": 21.43,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 85
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAUODp10VVBMRhj5HWmEjd6Q"
+    },
+    {
+      "id": "story-and-soil-coffee",
+      "name": "Story and Soil Coffee",
+      "city": "Dallas, TX",
+      "country": "USA",
+      "cc": "US",
+      "lat": 32.78,
+      "lng": -96.8,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 86
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJl6jCu6WQToYRMdxsUHSeiSI"
+    },
+    {
+      "id": "exploradores",
+      "name": "Exploradores",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "cc": "MX",
+      "lat": 19.42,
+      "lng": -99.14,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 87
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN6JFujj90YURdP4XZI5bNdU"
+    },
+    {
+      "id": "the-folks",
+      "name": "The Folks",
+      "city": "Porto",
+      "country": "Portugal",
+      "cc": "PT",
+      "lat": 41.15,
+      "lng": -8.61,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 88
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJY0n5qdo1GQ0Ry1x_OuwgPfo"
+    },
+    {
+      "id": "casa-barista-co",
+      "name": "Casa Barista & Co., Casco Histórico",
+      "city": "Santo Domingo",
+      "country": "Dominican Republic",
+      "cc": "DO",
+      "lat": 18.47,
+      "lng": -69.93,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 89
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJo71akESJr44RaP_SBr6uIuw"
+    },
+    {
+      "id": "cypher-urban-roastery",
+      "name": "Cypher Urban Roastery",
+      "city": "Dubai",
+      "country": "UAE",
+      "cc": "AE",
+      "lat": 25.19,
+      "lng": 55.28,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 90
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJgT7BrsZrXz4RQuTOVL5PY4o"
+    },
+    {
+      "id": "cafetano-coffee-roasters",
+      "name": "Cafetano Coffee Roasters",
+      "city": "Tegucigalpa",
+      "country": "Honduras",
+      "cc": "HN",
+      "lat": 14.08,
+      "lng": -87.22,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 91
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJ3G5PR6jb48RFPOaCFk9vKY"
+    },
+    {
+      "id": "coffee-five",
+      "name": "Coffee Five",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "cc": "BR",
+      "lat": -23.55,
+      "lng": -46.63,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 92
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhVec0o5_mQARZO8ND6SrAgA"
+    },
+    {
+      "id": "kima-coffee",
+      "name": "Kima Coffee",
+      "city": "Madrid",
+      "country": "Spain",
+      "cc": "ES",
+      "lat": 40.41,
+      "lng": -3.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 93
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJO7gy4u73cg0RWxB_qETleuU"
+    },
+    {
+      "id": "negro",
+      "name": "Negro",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "cc": "AR",
+      "lat": -34.61,
+      "lng": -58.38,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 94
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJH8X9HLbKvJUR21lsTOTkTA0"
+    },
+    {
+      "id": "metric",
+      "name": "Metric",
+      "city": "Chicago, IL",
+      "country": "USA",
+      "cc": "US",
+      "lat": 41.88,
+      "lng": -87.63,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 95
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJFe_FAUgtDogRNvsYZUbeFFk"
+    },
+    {
+      "id": "el-terrible-juan-cafe",
+      "name": "El Terrible Juan Café",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "cc": "MX",
+      "lat": 19.43,
+      "lng": -99.13,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 96
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJib01pQauKIQRPu1YweLbfx0"
+    },
+    {
+      "id": "flat-white-specialty-coffee",
+      "name": "Flat White Specialty Coffee",
+      "city": "Doha",
+      "country": "Qatar",
+      "cc": "QA",
+      "lat": 25.3,
+      "lng": 51.52,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 97
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJXznzbd7FRT4RmVpr-CASEBM"
+    },
+    {
+      "id": "cafeoteca",
+      "name": "Cafeoteca",
+      "city": "San José",
+      "country": "Costa Rica",
+      "cc": "CR",
+      "lat": 9.93,
+      "lng": -84.08,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 98
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJT0f9H3zjoI8Rf-A_33X5ecw"
+    },
+    {
+      "id": "surry-hills-coffee",
+      "name": "Surry Hills Coffee",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "cc": "AR",
+      "lat": -34.62,
+      "lng": -58.37,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 99
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpa7VK7G1vJURB2vsGd0I19Q"
+    },
+    {
+      "id": "vacation-coffee",
+      "name": "Vacation Coffee",
+      "city": "Melbourne",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -37.82,
+      "lng": 144.96,
+      "url": "",
+      "awards": [
+        {
+          "org": "worlds-100-best",
+          "year": 2026,
+          "rank": 100
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJM99O_7dC1moRhpzNrTPwIEU"
+    },
+    {
+      "id": "huracan-coffee",
+      "name": "Huracán Coffee",
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "cc": "LT",
+      "lat": 54.69,
+      "lng": 25.28,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2026,
+          "category": "World – Overall Winner"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Filter Single Origin Traditional Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJTfeIaBSU3UYRnFD3z-mSD6o"
+    },
+    {
+      "id": "kafea-terra",
+      "name": "KAFEA TERRA",
+      "city": "Athens",
+      "country": "Greece",
+      "cc": "GR",
+      "lat": 37.98,
+      "lng": 23.73,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2026,
+          "category": "World – Espresso Single Origin Experimental Gold"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Filter Single Origin Experimental Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJUceego2ZoRQRhqLIQJ_UwRQ"
+    },
+    {
+      "id": "cafe-cultor",
+      "name": "Café Cultor",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "cc": "CO",
+      "lat": 4.71,
+      "lng": -74.07,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2026,
+          "category": "World – Filter Washed Gold"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Filter Washed Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJK13F1EOaP44RDgle2lELJ50"
+    },
+    {
+      "id": "casa-landino",
+      "name": "Casa Landino",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "cc": "CO",
+      "lat": 4.7,
+      "lng": -74.07,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2026,
+          "category": "World – Filter Single Origin Experimental Gold"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Overall Winner"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJWy89s6eaP44RHmljwnXblrk"
+    },
+    {
+      "id": "vero-coffee-house",
+      "name": "Vero Coffee House",
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "cc": "LT",
+      "lat": 54.69,
+      "lng": 25.28,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2026,
+          "category": "World – Filter Experimental Gold"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Flat White Alternative Single Origin Traditional Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJHX7FyBCU3UYRgUYhmRGiUX0"
+    },
+    {
+      "id": "cabra-negra-coffee-roasters",
+      "name": "Cabra Negra Coffee Roasters",
+      "city": "Quito",
+      "country": "Ecuador",
+      "cc": "EC",
+      "lat": -0.23,
+      "lng": -78.52,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2026,
+          "category": "World – Filter Honey Gold"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Flat White Alternative Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJmVNJVwCb1ZERRZcw4Oa_ThI"
+    },
+    {
+      "id": "stamp-act-coffee",
+      "name": "Stamp Act Coffee",
+      "city": "Seattle, WA",
+      "country": "USA",
+      "cc": "US",
+      "lat": 47.61,
+      "lng": -122.33,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2026,
+          "category": "World – Espresso Blend Gold"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Filter Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ0aFIDrcVkFQRThqCAsKQizM"
+    },
+    {
+      "id": "audun-coffee",
+      "name": "Audun Coffee",
+      "city": "Warsaw",
+      "country": "Poland",
+      "cc": "PL",
+      "lat": 52.23,
+      "lng": 21.01,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2026,
+          "category": "World – Espresso Decaf Gold"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Flat White Dairy Blend Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJvcl3f8cTA0cRmgufO-bUjlc"
+    },
+    {
+      "id": "cafe-de-las-nubes",
+      "name": "Café de las Nubes",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "cc": "MX",
+      "lat": 19.43,
+      "lng": -99.13,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2026,
+          "category": "World – Flat White Dairy Blend Gold"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Flat White Alternative Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ3R-T4Y7_0YUR-qmvFEZL_50"
+    },
+    {
+      "id": "terres-de-cafe",
+      "name": "Terres de Café",
+      "city": "Paris",
+      "country": "France",
+      "cc": "FR",
+      "lat": 48.87,
+      "lng": 2.35,
+      "url": "https://terresdecafe.com",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2026,
+          "category": "World – Flat White Dairy Single Origin Gold"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Filter Experimental Gold"
+        },
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ9epvyRxu5kcRFQ4pCiQFui4"
+    },
+    {
+      "id": "origin-coffee",
+      "name": "Origin Coffee",
+      "city": "Cornwall",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 50.08,
+      "lng": -5.32,
+      "url": "https://originroasting.co.uk",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Overall Winner"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Espresso Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJx67ZUx8ka0gRU3EZYn4eRqo"
+    },
+    {
+      "id": "ombu-bcn-tostadores",
+      "name": "Ombú Bcn Tostadores",
+      "city": "Barcelona",
+      "country": "Spain",
+      "cc": "ES",
+      "lat": 41.39,
+      "lng": 2.15,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Filter Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJwXmvghyjpBIRyOkexi7d908"
+    },
+    {
+      "id": "rocket-bean",
+      "name": "Rocket Bean Roastery",
+      "city": "Riga",
+      "country": "Latvia",
+      "cc": "LV",
+      "lat": 56.95,
+      "lng": 24.11,
+      "url": "https://rocketbeanroastery.com",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Flat White Dairy Gold"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Flat White Alternative Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVR0wmrXP7kYRkP5X4cV0aKo"
+    },
+    {
+      "id": "badger-and-dodo",
+      "name": "Badger & Dodo",
+      "city": "Cork",
+      "country": "Ireland",
+      "cc": "IE",
+      "lat": 51.9,
+      "lng": -8.47,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Filter Blend Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ--PQXIiRREgRL49GiBearQg"
+    },
+    {
+      "id": "spojka-roastery",
+      "name": "Spojka Roastery",
+      "city": "Bratislava",
+      "country": "Slovakia",
+      "cc": "SK",
+      "lat": 48.15,
+      "lng": 17.11,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Filter Washed Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8Rhh6k7zPkcRaevZzhvrVSk"
+    },
+    {
+      "id": "cafe-piha",
+      "name": "Café Piha",
+      "city": "Paris",
+      "country": "France",
+      "cc": "FR",
+      "lat": 48.87,
+      "lng": 2.35,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Filter Experimental Gold"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Espresso Single Origin Traditional Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJZxLGr8UnVQ0R58vS0l6xlCI"
+    },
+    {
+      "id": "la-brulerie-books-coffee",
+      "name": "La Brûlerie Books & Coffee",
+      "city": "",
+      "country": "France",
+      "cc": "FR",
+      "lat": 48.87,
+      "lng": 2.35,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Espresso Blend Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJg18LPs8nVQ0Ry03R4O5afU4"
+    },
+    {
+      "id": "les-revelations",
+      "name": "Les Révélations",
+      "city": "",
+      "country": "France",
+      "cc": "FR",
+      "lat": 48.87,
+      "lng": 2.35,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Espresso Decaf Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ9yqCVb1x5kcRBbCIGJDlK_w"
+    },
+    {
+      "id": "tree-artisan-coffee",
+      "name": "Tree Artisan Coffee",
+      "city": "London",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 51.51,
+      "lng": -0.13,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Europe – Flat White Alternative Single Origin Traditional Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJS8nxesoddkgRgb1ZxwTDky4"
+    },
+    {
+      "id": "utopian-coffee",
+      "name": "Utopian Coffee",
+      "city": "Fort Wayne, IN",
+      "country": "USA",
+      "cc": "US",
+      "lat": 41.08,
+      "lng": -85.14,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Overall Winner"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Espresso Gold"
+        },
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Flat White Alternative Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJUVCRagPlFYgRuJ2Z6cgNnHA"
+    },
+    {
+      "id": "sweet-bloom",
+      "name": "Sweet Bloom Coffee Roasters",
+      "city": "Denver, CO",
+      "country": "USA",
+      "cc": "US",
+      "lat": 39.74,
+      "lng": -104.98,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Flat White Dairy Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjQoGTCGHa4cRzkahoeTVTQ0"
+    },
+    {
+      "id": "black-oak-coffee-roasters",
+      "name": "Black Oak Coffee Roasters",
+      "city": "Oakland, CA",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.81,
+      "lng": -122.27,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Filter Blend Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJd2TJzvoXhIARGIeRC38ssZ0"
+    },
+    {
+      "id": "reprise-coffee",
+      "name": "Reprise Coffee Roasters",
+      "city": "",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.09,
+      "lng": -95.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Filter Blend Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ7SG1WFrRD4gRH9VWHyA9b98"
+    },
+    {
+      "id": "moxie-coffee-co",
+      "name": "Moxie Coffee Co.",
+      "city": "",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.09,
+      "lng": -95.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Filter Single Origin Experimental Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJK4X8xGcTK4cRI4ce_OIVVck"
+    },
+    {
+      "id": "whats-brewing",
+      "name": "What's Brewing",
+      "city": "",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.09,
+      "lng": -95.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Filter Single Origin Experimental Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ98yakDxgXIYRQk2YwcaWu1I"
+    },
+    {
+      "id": "phil-and-sebastian-coffee",
+      "name": "Phil & Sebastian Coffee Roasters",
+      "city": "Calgary",
+      "country": "Canada",
+      "cc": "CA",
+      "lat": 51.05,
+      "lng": -114.07,
+      "url": "https://philsebastian.com",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Filter Washed Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJzd0u2lRlcVMRoSTjaEEDL_E"
+    },
+    {
+      "id": "tipico-coffee-roasters",
+      "name": "Tipico Coffee Roasters",
+      "city": "San Diego, CA",
+      "country": "USA",
+      "cc": "US",
+      "lat": 32.72,
+      "lng": -117.16,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Filter Natural Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_zFUjnwT04kRtF5vy48cnOM"
+    },
+    {
+      "id": "cafe-kreyol",
+      "name": "Cafe Kreyol",
+      "city": "",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.09,
+      "lng": -95.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Filter Honey Gold"
+        },
+        {
+          "org": "roast-magazine",
+          "year": 2023,
+          "category": "Macro Roaster of the Year"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQQTkudtctokRvVHuejLtSTo"
+    },
+    {
+      "id": "regalia-coffee",
+      "name": "Regalia Coffee",
+      "city": "",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.09,
+      "lng": -95.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Filter Experimental Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjzP3qctZwokR0TX1LHONzpk"
+    },
+    {
+      "id": "smelly-cat-coffee",
+      "name": "Smelly Cat Coffee",
+      "city": "Charlotte, NC",
+      "country": "USA",
+      "cc": "US",
+      "lat": 35.23,
+      "lng": -80.84,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Espresso Blend Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJFerbIdofVIgR75JWFgcsMns"
+    },
+    {
+      "id": "1776-coffee-roasters",
+      "name": "1776 Coffee Roasters",
+      "city": "",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.09,
+      "lng": -95.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Espresso Single Origin Traditional Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJoVNbTvDiA0oRIgmQJHShDBM"
+    },
+    {
+      "id": "sur-coffee",
+      "name": "Sur Coffee",
+      "city": "",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.09,
+      "lng": -95.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Flat White Alternative Blend Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJH-EHluf13IAR2GZgsOHiOmI"
+    },
+    {
+      "id": "red-leaf-coffee",
+      "name": "Red Leaf Coffee",
+      "city": "",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.09,
+      "lng": -95.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "US & Canada – Espresso Decaf Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQdAj8ECxlVQRzGaNcJsjNMc"
+    },
+    {
+      "id": "cafe-la-vereda",
+      "name": "Café La Vereda",
+      "city": "",
+      "country": "Colombia",
+      "cc": "CO",
+      "lat": 4.71,
+      "lng": -74.07,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Filter Single Origin Experimental Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVX38VSSdQI4RqPr20uwIc5g"
+    },
+    {
+      "id": "amor-perfecto",
+      "name": "Amor Perfecto",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "cc": "CO",
+      "lat": 4.71,
+      "lng": -74.07,
+      "url": "https://amorperfecto.com",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Filter Washed Gold"
+        },
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJwXLng0CaP44RdFS3YFjewS0"
+    },
+    {
+      "id": "cafetalera-aquiares",
+      "name": "Cafetalera Aquiares",
+      "city": "Turrialba",
+      "country": "Costa Rica",
+      "cc": "CR",
+      "lat": 9.9,
+      "lng": -83.68,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Filter Natural Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ-wiybsHRoI8RjHT-qyJEcw8"
+    },
+    {
+      "id": "zozoaga",
+      "name": "Zozoaga",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "cc": "MX",
+      "lat": 19.43,
+      "lng": -99.13,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Filter Natural Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJrc8GCSq_K4QRoh_bkUL14jI"
+    },
+    {
+      "id": "pergamino",
+      "name": "Pergamino",
+      "city": "Medellín",
+      "country": "Colombia",
+      "cc": "CO",
+      "lat": 6.24,
+      "lng": -75.57,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Filter Honey Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAwOZ5ikoRI4RWqsKH3Ve1gI"
+    },
+    {
+      "id": "every-half",
+      "name": "Every Half",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "cc": "VN",
+      "lat": 10.82,
+      "lng": 106.63,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Filter Robusta Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5b1V8PYpdTERjYq-X-hL-Tk"
+    },
+    {
+      "id": "finca-peniel",
+      "name": "Finca Peniel",
+      "city": "",
+      "country": "Guatemala",
+      "cc": "GT",
+      "lat": 14.64,
+      "lng": -90.51,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Flat White Dairy Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJF7E7gWCNOI4RNbhiDlQTkQ4"
+    },
+    {
+      "id": "marcs-coffees",
+      "name": "Marc's Coffees",
+      "city": "Bangalore",
+      "country": "India",
+      "cc": "IN",
+      "lat": 12.97,
+      "lng": 77.59,
+      "url": "",
+      "awards": [
+        {
+          "org": "gca",
+          "year": 2025,
+          "category": "Origin – Flat White Dairy Gold"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJv3W7Z6ZmUzoRTf4Ao8XqA4M"
+    },
+    {
+      "id": "kafiex-roasters",
+      "name": "Kafiex Roasters",
+      "city": "Vancouver, WA",
+      "country": "USA",
+      "cc": "US",
+      "lat": 45.64,
+      "lng": -122.66,
+      "url": "",
+      "awards": [
+        {
+          "org": "roast-magazine",
+          "year": 2026,
+          "category": "Micro Roaster of the Year"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJCWrs3hOwlVQROxma3SGMRu0"
+    },
+    {
+      "id": "driftaway-coffee",
+      "name": "Driftaway Coffee",
+      "city": "Brooklyn, NY",
+      "country": "USA",
+      "cc": "US",
+      "lat": 40.68,
+      "lng": -73.94,
+      "url": "https://driftaway.coffee",
+      "awards": [
+        {
+          "org": "roast-magazine",
+          "year": 2026,
+          "category": "Macro Roaster of the Year"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC_LvoIhawokRpgfwcXZyeIk"
+    },
+    {
+      "id": "dear-green-coffee-roasters",
+      "name": "Dear Green Coffee Roasters",
+      "city": "Glasgow",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 55.86,
+      "lng": -4.25,
+      "url": "https://www.deargreencoffee.com",
+      "awards": [
+        {
+          "org": "roast-magazine",
+          "year": 2025,
+          "category": "Micro Roaster of the Year"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJYwMwZaJGiEgRN8CmMWncln4"
+    },
+    {
+      "id": "wonderstate-coffee",
+      "name": "Wonderstate Coffee",
+      "city": "Viroqua, WI",
+      "country": "USA",
+      "cc": "US",
+      "lat": 43.56,
+      "lng": -90.89,
+      "url": "https://wonderstate.com",
+      "awards": [
+        {
+          "org": "roast-magazine",
+          "year": 2025,
+          "category": "Macro Roaster of the Year"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN-lepAs-_IcR9uXLfBVL6Jo"
+    },
+    {
+      "id": "bridge-city-coffee",
+      "name": "Bridge City Coffee",
+      "city": "Portland, OR",
+      "country": "USA",
+      "cc": "US",
+      "lat": 45.52,
+      "lng": -122.68,
+      "url": "",
+      "awards": [
+        {
+          "org": "roast-magazine",
+          "year": 2024,
+          "category": "Micro Roaster of the Year"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJH4wFbwUKlVQRXNgF8v5v70E"
+    },
+    {
+      "id": "verve-coffee-roasters",
+      "name": "Verve Coffee Roasters",
+      "city": "Santa Cruz, CA",
+      "country": "USA",
+      "cc": "US",
+      "lat": 36.97,
+      "lng": -122.03,
+      "url": "https://vervecoffee.com",
+      "awards": [
+        {
+          "org": "roast-magazine",
+          "year": 2024,
+          "category": "Macro Roaster of the Year"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2xDn9iVAjoARFidiiMHCE4g"
+    },
+    {
+      "id": "rabbit-hole-roasters",
+      "name": "Rabbit Hole Roasters",
+      "city": "",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.09,
+      "lng": -95.71,
+      "url": "",
+      "awards": [
+        {
+          "org": "roast-magazine",
+          "year": 2023,
+          "category": "Micro Roaster of the Year"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJozZSCrwPyUwRyn1x6HetinQ"
+    },
+    {
+      "id": "little-waves-coffee-roasters",
+      "name": "Little Waves Coffee Roasters",
+      "city": "Durham, NC",
+      "country": "USA",
+      "cc": "US",
+      "lat": 35.99,
+      "lng": -78.9,
+      "url": "",
+      "awards": [
+        {
+          "org": "roast-magazine",
+          "year": 2022,
+          "category": "Micro Roaster of the Year"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJy75UZCflrIkR_g5TJJNleyU"
+    },
+    {
+      "id": "huckleberry-roasters",
+      "name": "Huckleberry Roasters",
+      "city": "Denver, CO",
+      "country": "USA",
+      "cc": "US",
+      "lat": 39.74,
+      "lng": -104.98,
+      "url": "",
+      "awards": [
+        {
+          "org": "roast-magazine",
+          "year": 2022,
+          "category": "Macro Roaster of the Year"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJgbMtytx4bIcRUHyztFaet78"
+    },
+    {
+      "id": "greater-goods-coffee",
+      "name": "Greater Goods Coffee Company",
+      "city": "Austin, TX",
+      "country": "USA",
+      "cc": "US",
+      "lat": 30.27,
+      "lng": -97.74,
+      "url": "",
+      "awards": [
+        {
+          "org": "roast-magazine",
+          "year": 2021,
+          "category": "Micro Roaster of the Year"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ3XH3b3JqW4YRl27lgZI5tBI"
+    },
+    {
+      "id": "tonys-coffee",
+      "name": "Tony's Coffee",
+      "city": "Bellingham, WA",
+      "country": "USA",
+      "cc": "US",
+      "lat": 48.75,
+      "lng": -122.48,
+      "url": "",
+      "awards": [
+        {
+          "org": "roast-magazine",
+          "year": 2021,
+          "category": "Macro Roaster of the Year"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJHXUTqo-khVQRZiC3zEgGskw"
+    },
+    {
+      "id": "coffee-collective",
+      "name": "Coffee Collective",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "cc": "DK",
+      "lat": 55.68,
+      "lng": 12.57,
+      "url": "https://coffeecollective.dk",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 2
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJy_p2bxdTUkYRPKPZZHLCDKA"
+    },
+    {
+      "id": "april-coffee-roasters",
+      "name": "April Coffee Roasters",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "cc": "DK",
+      "lat": 55.68,
+      "lng": 12.57,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 3
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ3zwobABTUkYR23rFe4h12pI"
+    },
+    {
+      "id": "sey-coffee",
+      "name": "Sey Coffee",
+      "city": "Brooklyn, NY",
+      "country": "USA",
+      "cc": "US",
+      "lat": 40.71,
+      "lng": -73.94,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 4
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJtz83BQFcwokRrUZ9HpeGOng"
+    },
+    {
+      "id": "koppi",
+      "name": "Koppi",
+      "city": "Helsingborg",
+      "country": "Sweden",
+      "cc": "SE",
+      "lat": 56.05,
+      "lng": 12.72,
+      "url": "https://koppi.se",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 6
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpVLPt7EzUkYR9yANFNHeB_o"
+    },
+    {
+      "id": "nomad-coffee",
+      "name": "Nomad Coffee",
+      "city": "Barcelona",
+      "country": "Spain",
+      "cc": "ES",
+      "lat": 41.39,
+      "lng": 2.16,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 7
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJF3295_qipBIRFR8_uS69o6w"
+    },
+    {
+      "id": "ona-coffee",
+      "name": "ONA Coffee",
+      "city": "Canberra",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -35.28,
+      "lng": 149.13,
+      "url": "https://onacoffee.com.au",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 9
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk0gvbjNMFmsRmIOvIOLv8CI"
+    },
+    {
+      "id": "manhattan-coffee-roasters",
+      "name": "Manhattan Coffee Roasters",
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "cc": "NL",
+      "lat": 51.92,
+      "lng": 4.48,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 10
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjXmQFJU1xEcRxM4t9Q-ZySY"
+    },
+    {
+      "id": "friedhats",
+      "name": "Friedhats",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "cc": "NL",
+      "lat": 52.37,
+      "lng": 4.9,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 11
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxdi9WYbjxUcRBmM4a_wJuHI"
+    },
+    {
+      "id": "kawa-coffee",
+      "name": "Kawa",
+      "city": "Paris",
+      "country": "France",
+      "cc": "FR",
+      "lat": 48.87,
+      "lng": 2.35,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 12
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJ87z2idv5kcR802uhpvngSY"
+    },
+    {
+      "id": "dak-coffee-roasters",
+      "name": "Dak Coffee Roasters",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "cc": "NL",
+      "lat": 52.37,
+      "lng": 4.91,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 13
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJgyZ9gPHjxUcRpA-uZn7imIw"
+    },
+    {
+      "id": "archers-coffee",
+      "name": "Archers",
+      "city": "Sharjah",
+      "country": "UAE",
+      "cc": "AE",
+      "lat": 25.34,
+      "lng": 55.39,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 15
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJu9r_Q7uL9T4R4UOjtwuSyy0"
+    },
+    {
+      "id": "heart-coffee-roasters",
+      "name": "Heart Coffee Roasters",
+      "city": "Portland, OR",
+      "country": "USA",
+      "cc": "US",
+      "lat": 45.52,
+      "lng": -122.68,
+      "url": "https://heartroasters.com",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 16
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJMZ194p-glVQR8ZVFvQxyRjI"
+    },
+    {
+      "id": "morgon-coffee-roasters",
+      "name": "Morgon Coffee Roasters",
+      "city": "Gothenburg",
+      "country": "Sweden",
+      "cc": "SE",
+      "lat": 57.71,
+      "lng": 11.97,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 17
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJz3r5dpd7RUYR7oR69bw1zhw"
+    },
+    {
+      "id": "leaves-coffee-roasters",
+      "name": "Leaves Coffee Roasters",
+      "city": "Tokyo",
+      "country": "Japan",
+      "cc": "JP",
+      "lat": 35.69,
+      "lng": 139.7,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 18
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJs73IqKGPGGAR8vR56OnCUD4"
+    },
+    {
+      "id": "prodigal-coffee",
+      "name": "Prodigal Coffee",
+      "city": "Boulder, CO",
+      "country": "USA",
+      "cc": "US",
+      "lat": 40.01,
+      "lng": -105.28,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 19
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJyYRrcwDva4cRqGly4P5AqUY"
+    },
+    {
+      "id": "market-lane-coffee",
+      "name": "Market Lane Coffee",
+      "city": "Melbourne",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -37.82,
+      "lng": 144.96,
+      "url": "https://marketlane.com.au",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 20
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJYQxRN8ZC1moRZPYsVv8YrEQ"
+    },
+    {
+      "id": "colonna-coffee",
+      "name": "Colonna Coffee",
+      "city": "Bristol",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 51.45,
+      "lng": -2.59,
+      "url": "https://colonnacoffee.com",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 21
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJMUKdQBSBcUgRvz8IiqG_Fm8"
+    },
+    {
+      "id": "code-black-coffee",
+      "name": "Code Black Coffee",
+      "city": "Brunswick",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -37.77,
+      "lng": 144.96,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 22
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJT3I-okpD1moRBNshH62Qt7Q"
+    },
+    {
+      "id": "mame-coffee",
+      "name": "Mame",
+      "city": "Zurich",
+      "country": "Switzerland",
+      "cc": "CH",
+      "lat": 47.38,
+      "lng": 8.54,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 22
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJdwajgBQKkEcRoSKs8oY13Pc"
+    },
+    {
+      "id": "passenger-coffee",
+      "name": "Passenger Coffee",
+      "city": "Lancaster, PA",
+      "country": "USA",
+      "cc": "US",
+      "lat": 40.04,
+      "lng": -76.31,
+      "url": "https://passengercoffee.com",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 24
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5Wh2-GAlxokRcNuDXk_dtjo"
+    },
+    {
+      "id": "square-mile-coffee",
+      "name": "Square Mile Coffee Roasters",
+      "city": "London",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 51.51,
+      "lng": -0.08,
+      "url": "https://squaremilecoffee.com",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 24
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJBecgCcMcdkgRsNCfre9LTmA"
+    },
+    {
+      "id": "glitch-coffee",
+      "name": "Glitch Coffee & Roasters",
+      "city": "Tokyo",
+      "country": "Japan",
+      "cc": "JP",
+      "lat": 35.69,
+      "lng": 139.69,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 26
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJDxYKIhCMGGARScnqzc-T-TU"
+    },
+    {
+      "id": "ilse-coffee",
+      "name": "Ilse Coffee Roasters",
+      "city": "North Canaan, CT",
+      "country": "USA",
+      "cc": "US",
+      "lat": 41.97,
+      "lng": -73.32,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 27
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ3V2PUJR554kR7n94WEBIXTg"
+    },
+    {
+      "id": "assembly-coffee",
+      "name": "Assembly Coffee",
+      "city": "London",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 51.51,
+      "lng": -0.1,
+      "url": "https://assemblycoffee.co.uk",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 28
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5-gCjGcEdkgR5u6fPThBwXg"
+    },
+    {
+      "id": "drop-coffee-roasters",
+      "name": "Drop Coffee Roasters",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "cc": "SE",
+      "lat": 59.33,
+      "lng": 18.07,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 29
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ7QBKvuV3X0YRHP5IH4gh4jw"
+    },
+    {
+      "id": "hex-coffee",
+      "name": "Hex Coffee",
+      "city": "Charlotte, NC",
+      "country": "USA",
+      "cc": "US",
+      "lat": 35.23,
+      "lng": -80.84,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 29
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ___PjW2fVogRpQSJQZr2tKM"
+    },
+    {
+      "id": "weekenders-coffee",
+      "name": "Weekenders Coffee",
+      "city": "Kyoto",
+      "country": "Japan",
+      "cc": "JP",
+      "lat": 35.01,
+      "lng": 135.77,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 31
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxTE9EJsJAWARvjswhLonKD0"
+    },
+    {
+      "id": "rosso-coffee-roasters",
+      "name": "Rosso Coffee Roasters",
+      "city": "Calgary",
+      "country": "Canada",
+      "cc": "CA",
+      "lat": 51.05,
+      "lng": -114.07,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 32
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJnSRc9q96cVMRz2p9soNj80A"
+    },
+    {
+      "id": "five-elephant",
+      "name": "Five Elephant",
+      "city": "Berlin",
+      "country": "Germany",
+      "cc": "DE",
+      "lat": 52.5,
+      "lng": 13.43,
+      "url": "https://fiveelephant.com",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 33
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQSnqIeJRqEcRsZrGsz4BE7E"
+    },
+    {
+      "id": "calendar-coffee",
+      "name": "Calendar Coffee",
+      "city": "Galway",
+      "country": "Ireland",
+      "cc": "IE",
+      "lat": 53.27,
+      "lng": -9.05,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 34
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJe7CA2--9W0gRMkhdpXyvxOw"
+    },
+    {
+      "id": "gardelli-specialty-coffees",
+      "name": "Gardelli Specialty Coffees",
+      "city": "Forlì",
+      "country": "Italy",
+      "cc": "IT",
+      "lat": 44.22,
+      "lng": 12.04,
+      "url": "https://gardellispecialtycoffees.com",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 34
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJLU3XrR6oLBMRt_oS-TCC9DM"
+    },
+    {
+      "id": "luna-coffee-roasters",
+      "name": "Luna Coffee Roasters",
+      "city": "Vancouver",
+      "country": "Canada",
+      "cc": "CA",
+      "lat": 49.28,
+      "lng": -123.12,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 37
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJgcvFhhRxhlQRGtcevOrbecY"
+    },
+    {
+      "id": "oma-coffee",
+      "name": "Oma Coffee",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "cc": "HK",
+      "lat": 22.32,
+      "lng": 114.17,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 37
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJiyeC7GMBBDQRHitmFIKXpDU"
+    },
+    {
+      "id": "rose-coffee-roasters",
+      "name": "Rose Coffee Roasters",
+      "city": "Zurich",
+      "country": "Switzerland",
+      "cc": "CH",
+      "lat": 47.38,
+      "lng": 8.55,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 37
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhdKpcxwKkEcRTk32bwDKxkA"
+    },
+    {
+      "id": "tandem-coffee-roasters",
+      "name": "Tandem Coffee Roasters",
+      "city": "Portland, ME",
+      "country": "USA",
+      "cc": "US",
+      "lat": 43.66,
+      "lng": -70.26,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 37
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJA3VBQW-cskwRIr0AnN6s6kY"
+    },
+    {
+      "id": "the-barn",
+      "name": "The Barn",
+      "city": "Berlin",
+      "country": "Germany",
+      "cc": "DE",
+      "lat": 52.53,
+      "lng": 13.39,
+      "url": "https://thebarn.de",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 37
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJlacAYh1OqEcRwgXI4wAzd24"
+    },
+    {
+      "id": "philocoffea",
+      "name": "Philocoffea",
+      "city": "Funabashi",
+      "country": "Japan",
+      "cc": "JP",
+      "lat": 35.7,
+      "lng": 139.98,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 42
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJrR-75dZ_GGAR9fol98WH9ro"
+    },
+    {
+      "id": "monogram-coffee",
+      "name": "Monogram Coffee",
+      "city": "Calgary",
+      "country": "Canada",
+      "cc": "CA",
+      "lat": 51.05,
+      "lng": -114.07,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 43
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJFzIli_tvcVMR8OHwpiJonm4"
+    },
+    {
+      "id": "hatch-coffee",
+      "name": "Hatch Coffee",
+      "city": "Markham",
+      "country": "Canada",
+      "cc": "CA",
+      "lat": 43.86,
+      "lng": -79.27,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 44
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJn3u7ZL_U1IkRGx2ccWVScU8"
+    },
+    {
+      "id": "black-and-white-coffee",
+      "name": "Black & White Coffee Roasters",
+      "city": "Wake Forest, NC",
+      "country": "USA",
+      "cc": "US",
+      "lat": 35.98,
+      "lng": -78.51,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 45
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ0esS-CVSrIkRdsVrUl5L44g"
+    },
+    {
+      "id": "subtext-coffee",
+      "name": "Subtext Coffee Roasters",
+      "city": "Toronto",
+      "country": "Canada",
+      "cc": "CA",
+      "lat": 43.65,
+      "lng": -79.38,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 46
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJnbFcq-k1K4gRItmtgGUuZ4Q"
+    },
+    {
+      "id": "swerl",
+      "name": "Swerl",
+      "city": "Falkenberg",
+      "country": "Sweden",
+      "cc": "SE",
+      "lat": 56.91,
+      "lng": 12.49,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 47
+        }
+      ]
+    },
+    {
+      "id": "kurasu",
+      "name": "Kurasu",
+      "city": "Kyoto",
+      "country": "Japan",
+      "cc": "JP",
+      "lat": 35.01,
+      "lng": 135.77,
+      "url": "https://kurasu.kyoto",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 48
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJIXEre6gIAWAREVefMDUfbV8"
+    },
+    {
+      "id": "botz-coffee",
+      "name": "Botz Coffee",
+      "city": "Whiting, IN",
+      "country": "USA",
+      "cc": "US",
+      "lat": 41.68,
+      "lng": -87.49,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 49
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJNQclSSnZEYgRX3nJnmF3FC0"
+    },
+    {
+      "id": "one-half-coffee",
+      "name": "One Half Coffee",
+      "city": "Petaling Jaya",
+      "country": "Malaysia",
+      "cc": "MY",
+      "lat": 3.11,
+      "lng": 101.66,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024,
+          "rank": 49
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJH6I3gUpLzDERkK9iZejAn0Y"
+    },
+    {
+      "id": "20grams-coffee",
+      "name": "20grams Coffee Roastery",
+      "city": "Singapore",
+      "country": "Singapore",
+      "cc": "SG",
+      "lat": 1.35,
+      "lng": 103.82,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk--Pjh8Y2jERjV3c-apAvRA"
+    },
+    {
+      "id": "a-matter-of-concrete",
+      "name": "A Matter Of Concrete",
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "cc": "NL",
+      "lat": 51.92,
+      "lng": 4.48,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPeAlYhQ1xEcR9b1ewyQY3mU"
+    },
+    {
+      "id": "apollons-gold",
+      "name": "Apollon's Gold",
+      "city": "Tokyo",
+      "country": "Japan",
+      "cc": "JP",
+      "lat": 35.69,
+      "lng": 139.69,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr_BBqtONGGARIwjr4koSqYw"
+    },
+    {
+      "id": "archetype-coffee",
+      "name": "Archetype Coffee",
+      "city": "Omaha, NE",
+      "country": "USA",
+      "cc": "US",
+      "lat": 41.26,
+      "lng": -95.96,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJwYo8InCOk4cRtAwd9-aVZoo"
+    },
+    {
+      "id": "artificer-coffee",
+      "name": "Artificer Coffee Roasters",
+      "city": "Sydney",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -33.87,
+      "lng": 151.21,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJs4Lblh6uEmsRlGsK1tv6qY8"
+    },
+    {
+      "id": "axil-coffee-roasters",
+      "name": "Axil Coffee Roasters",
+      "city": "Melbourne",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -37.81,
+      "lng": 144.97,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5bxHSPlD1moRq8xoxVC3llY"
+    },
+    {
+      "id": "bonanza-coffee",
+      "name": "Bonanza Coffee",
+      "city": "Berlin",
+      "country": "Germany",
+      "cc": "DE",
+      "lat": 52.52,
+      "lng": 13.39,
+      "url": "https://bonanzacoffee.de",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJe-xsRDFOqEcR9oMD5MR9wCo"
+    },
+    {
+      "id": "cat-and-cloud",
+      "name": "Cat & Cloud Coffee",
+      "city": "Santa Cruz, CA",
+      "country": "USA",
+      "cc": "US",
+      "lat": 36.97,
+      "lng": -122.03,
+      "url": "https://catandcloud.com",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJafc221prjoARLPafvX5d8YA"
+    },
+    {
+      "id": "coffea-circulor",
+      "name": "Coffea Circulor",
+      "city": "Gothenburg",
+      "country": "Sweden",
+      "cc": "SE",
+      "lat": 57.71,
+      "lng": 11.97,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ9cj0rt2UR0YRYzjgo5V_imk"
+    },
+    {
+      "id": "coffee-county",
+      "name": "Coffee County",
+      "city": "Kurume",
+      "country": "Japan",
+      "cc": "JP",
+      "lat": 33.32,
+      "lng": 130.51,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJM_dcblqkQTURLzD7TSoha20"
+    },
+    {
+      "id": "cupping-room",
+      "name": "Cupping Room",
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "cc": "HK",
+      "lat": 22.32,
+      "lng": 114.17,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ81r536kBBDQRiuaBl3Ktygo"
+    },
+    {
+      "id": "dark-arts-coffee",
+      "name": "Dark Arts Coffee",
+      "city": "London",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 51.54,
+      "lng": -0.07,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVXKxW_0cdkgRguQOHF8pclE"
+    },
+    {
+      "id": "doubleshot",
+      "name": "Doubleshot",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "cc": "CZ",
+      "lat": 50.08,
+      "lng": 14.44,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJWUVo1mvyC0cRIfS7o9CJAtI"
+    },
+    {
+      "id": "fathers-coffee",
+      "name": "Fathers Coffee",
+      "city": "Ostrava",
+      "country": "Czech Republic",
+      "cc": "CZ",
+      "lat": 49.84,
+      "lng": 18.29,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ-UIz0BDlE0cRcx41ni7xCZc"
+    },
+    {
+      "id": "fjord-coffee-roasters",
+      "name": "Fjord Coffee Roasters",
+      "city": "Berlin",
+      "country": "Germany",
+      "cc": "DE",
+      "lat": 52.5,
+      "lng": 13.44,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "flower-child-coffee",
+      "name": "Flower Child Coffee",
+      "city": "Oakland, CA",
+      "country": "USA",
+      "cc": "US",
+      "lat": 37.81,
+      "lng": -122.27,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJIc8Ip6uBj4ARMhsfAKGFDrk"
+    },
+    {
+      "id": "fritz-coffee",
+      "name": "Fritz Coffee Company",
+      "city": "Seoul",
+      "country": "South Korea",
+      "cc": "KR",
+      "lat": 37.57,
+      "lng": 126.99,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJe1ONC6aYfDUR6IUAfWMCG44"
+    },
+    {
+      "id": "frukt-coffee-roasters",
+      "name": "Frukt Coffee Roasters",
+      "city": "Turku",
+      "country": "Finland",
+      "cc": "FI",
+      "lat": 60.45,
+      "lng": 22.27,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJkxkyDCh3jEYR3dw91I5k8yY"
+    },
+    {
+      "id": "fuglen-coffee-roasters",
+      "name": "Fuglen Coffee Roasters",
+      "city": "Oslo",
+      "country": "Norway",
+      "cc": "NO",
+      "lat": 59.92,
+      "lng": 10.72,
+      "url": "https://fuglen.no",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJc80CYT9vQUYR43VJOX086R8"
+    },
+    {
+      "id": "homeground-coffee",
+      "name": "Homeground Coffee Roasters",
+      "city": "Singapore",
+      "country": "Singapore",
+      "cc": "SG",
+      "lat": 1.35,
+      "lng": 103.82,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsVsBoVUZ2jER2sudHAV16UE"
+    },
+    {
+      "id": "intelligentsia-coffee",
+      "name": "Intelligentsia Coffee",
+      "city": "Chicago, IL",
+      "country": "USA",
+      "cc": "US",
+      "lat": 41.88,
+      "lng": -87.63,
+      "url": "https://intelligentsiacoffee.com",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJj_WHnaUsDogRLVVNKF7LxhY"
+    },
+    {
+      "id": "kaffeelix",
+      "name": "Kaffeelix",
+      "city": "St. Pölten",
+      "country": "Austria",
+      "cc": "AT",
+      "lat": 48.21,
+      "lng": 15.63,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJYdnvW714ckcRVH4jOMzSGfw"
+    },
+    {
+      "id": "kb-cafeeshop",
+      "name": "KB CaféShop",
+      "city": "Paris",
+      "country": "France",
+      "cc": "FR",
+      "lat": 48.87,
+      "lng": 2.35,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ34_eskZu5kcRcqo5e2sZByY"
+    },
+    {
+      "id": "lilo-coffee-roasters",
+      "name": "Lilo Coffee Roasters",
+      "city": "Osaka",
+      "country": "Japan",
+      "cc": "JP",
+      "lat": 34.69,
+      "lng": 135.5,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ1T9unxrnAGARhtQGwQaaF-I"
+    },
+    {
+      "id": "moklair",
+      "name": "Moklair",
+      "city": "Reims",
+      "country": "France",
+      "cc": "FR",
+      "lat": 49.26,
+      "lng": 4.03,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8GTQYJ16UcRt9Nl9S6zhXA"
+    },
+    {
+      "id": "nylon-coffee-roasters",
+      "name": "Nylon Coffee Roasters",
+      "city": "Singapore",
+      "country": "Singapore",
+      "cc": "SG",
+      "lat": 1.3,
+      "lng": 103.84,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJE7ZtOWwZ2jERFcasWYmljJQ"
+    },
+    {
+      "id": "onibus-coffee",
+      "name": "Onibus Coffee",
+      "city": "Tokyo",
+      "country": "Japan",
+      "cc": "JP",
+      "lat": 35.69,
+      "lng": 139.69,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJvXUZEEmLGGARlC39ZdeJ06Q"
+    },
+    {
+      "id": "prolog-coffee",
+      "name": "Prolog Coffee Bar",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "cc": "DK",
+      "lat": 55.68,
+      "lng": 12.57,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJRzBmiXNTUkYRqRXF2ZEdEkg"
+    },
+    {
+      "id": "process-coffee",
+      "name": "Process Coffee",
+      "city": "Belfast",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 54.6,
+      "lng": -5.93,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJBTbSdykJYUgRd3wBQTHTu5g"
+    },
+    {
+      "id": "round-hill-roastery",
+      "name": "Round Hill Roastery",
+      "city": "Bath",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 51.38,
+      "lng": -2.36,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJTzuWTkwockgRN7hQa_Q03G8"
+    },
+    {
+      "id": "september-coffee",
+      "name": "September Coffee",
+      "city": "Ottawa",
+      "country": "Canada",
+      "cc": "CA",
+      "lat": 45.42,
+      "lng": -75.69,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJLR7J3pH_zUwRUXtptXl3rWc"
+    },
+    {
+      "id": "seven-seeds",
+      "name": "Seven Seeds",
+      "city": "Melbourne",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -37.8,
+      "lng": 144.96,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJvdx3kjJd1moRHnjYhByshFo"
+    },
+    {
+      "id": "simple-kaffa",
+      "name": "Simple Kaffa",
+      "city": "Taipei",
+      "country": "Taiwan",
+      "cc": "TW",
+      "lat": 25.05,
+      "lng": 121.53,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJP5CF7pmrQjQRY1MyLg_GRrw"
+    },
+    {
+      "id": "small-batch-coffee",
+      "name": "Small Batch Coffee Roasters",
+      "city": "Melbourne",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -37.82,
+      "lng": 144.97,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2zpQRjFd1moRr8ns-bIfQhY"
+    },
+    {
+      "id": "special-guests-coffee",
+      "name": "Special Guests Coffee Roasters",
+      "city": "London",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 51.52,
+      "lng": -0.09,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJNTRGKAAbdkgR7xL7If_TBLQ"
+    },
+    {
+      "id": "standout-coffee",
+      "name": "Standout Coffee",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "cc": "SE",
+      "lat": 59.33,
+      "lng": 18.06,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJRX4mTd55X0YRvCqOMJWZGIY"
+    },
+    {
+      "id": "style-coffee",
+      "name": "Style Coffee",
+      "city": "Kyoto",
+      "country": "Japan",
+      "cc": "JP",
+      "lat": 35.01,
+      "lng": 135.76,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJtV81sTEJAWARREdtXG2raH8"
+    },
+    {
+      "id": "substance-cafe",
+      "name": "Substance Café",
+      "city": "Paris",
+      "country": "France",
+      "cc": "FR",
+      "lat": 48.87,
+      "lng": 2.34,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8yhUK1Zv5kcRBrhi_z2cVyA"
+    },
+    {
+      "id": "terarosa",
+      "name": "Terarosa",
+      "city": "Gangneung",
+      "country": "South Korea",
+      "cc": "KR",
+      "lat": 37.75,
+      "lng": 128.88,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ31UGj8fuYTURDk7i7HlRcYA"
+    },
+    {
+      "id": "terroir-laboratory",
+      "name": "Terroir Laboratory",
+      "city": "Melbourne",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -37.83,
+      "lng": 144.97,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJXf3zoWov3zARqHCgpkPCY8g"
+    },
+    {
+      "id": "the-naughty-dog",
+      "name": "The Naughty Dog",
+      "city": "Jílové u Prahy",
+      "country": "Czech Republic",
+      "cc": "CZ",
+      "lat": 49.93,
+      "lng": 14.42,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJU6bh7cyFC0cRNbw48W__ZC0"
+    },
+    {
+      "id": "the-underdog",
+      "name": "The Underdog",
+      "city": "Athens",
+      "country": "Greece",
+      "cc": "GR",
+      "lat": 37.98,
+      "lng": 23.73,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJrfp1eh-9oRQRZIfzJzjNIOg"
+    },
+    {
+      "id": "three-marks",
+      "name": "Three Marks",
+      "city": "Barcelona",
+      "country": "Spain",
+      "cc": "ES",
+      "lat": 41.38,
+      "lng": 2.17,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAQBsx-GipBIR1eID90RsOnQ"
+    },
+    {
+      "id": "workshop-coffee",
+      "name": "Workshop Coffee",
+      "city": "London",
+      "country": "United Kingdom",
+      "cc": "GB",
+      "lat": 51.52,
+      "lng": -0.1,
+      "url": "https://workshopcoffee.com",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJB4XG6x8FdkgRYgd8lvPLV4E"
+    },
+    {
+      "id": "zest-coffee",
+      "name": "Zest Coffee",
+      "city": "Melbourne",
+      "country": "Australia",
+      "cc": "AU",
+      "lat": -37.81,
+      "lng": 144.98,
+      "url": "",
+      "awards": [
+        {
+          "org": "roastful",
+          "year": 2024
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJfWVX5S1D1moRFXmqAP7fzaw"
+    }
+  ]
+}
