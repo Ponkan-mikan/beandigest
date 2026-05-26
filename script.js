@@ -215,9 +215,14 @@ function cardHTML(entry) {
   const badges = entry.awards.map(award => {
     const org = organizations[award.org];
     if (!org) return '';
-    const label = award.rank
+    const shortCat = award.category ? award.category.split(' – ')[0] : '';
+    const displayLabel = award.rank
       ? `${org.shortName} ${award.year} #${award.rank}`
+      : `${org.shortName} ${award.year}${shortCat ? ' · ' + shortCat : ''}`;
+    const fullLabel = award.rank
+      ? displayLabel
       : `${org.shortName} ${award.year}${award.category ? ' · ' + award.category : ''}`;
+    const titleAttr = ` title="${escapeHTML(fullLabel)}"`;
     const categoryUrl = (() => {
       if (!org.categoryUrlMap || !award.category) return null;
       const prefix = Object.keys(org.categoryUrlMap).find(k => award.category.startsWith(k));
@@ -228,7 +233,7 @@ function cardHTML(entry) {
       || categoryUrl
       || org.url;
     const href = badgeUrl ? ` href="${badgeUrl}" target="_blank" rel="noopener"` : '';
-    return `<a class="award-badge"${href} style="background:${org.color}">${label}</a>`;
+    return `<a class="award-badge"${href}${titleAttr} style="background:${org.color}">${displayLabel}</a>`;
   }).join('');
 
   const locationParts = [entry.city, entry.country].filter(Boolean);
@@ -245,13 +250,15 @@ function cardHTML(entry) {
 
   return `
     <div class="shop-card">
-      <div class="card-header">
-        ${flagImg}
-        <h2 class="card-name">${escapeHTML(entry.name)}</h2>
+      <div class="card-info">
+        <h2 class="card-name"><a class="card-name-link" href="${mapsUrl}" target="_blank" rel="noopener">${escapeHTML(entry.name)}</a></h2>
+        <span class="card-location">${escapeHTML(location)}</span>
       </div>
-      <a class="card-location" href="${mapsUrl}" target="_blank" rel="noopener">${escapeHTML(location)}</a>
-      <div class="card-awards">${badges}</div>
-      ${websiteLink}
+      <div class="card-flag-col">${flagImg}</div>
+      <div class="card-footer">
+        <div class="card-awards">${badges}</div>
+        ${websiteLink}
+      </div>
     </div>
   `;
 }
