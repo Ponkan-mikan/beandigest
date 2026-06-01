@@ -210,7 +210,7 @@ function renderCards() {
   if (mapInitialized) updateMapMarkers(filtered);
 }
 
-function cardHTML(entry) {
+function cardHTML(entry, isMapCard = false) {
   const flagImg = countryFlagImg(entry.cc);
 
   const badges = entry.awards.map(award => {
@@ -249,10 +249,15 @@ function cardHTML(entry) {
     ? `<a href="${entry.url}" class="card-link" target="_blank" rel="noopener">Website &#8599;</a>`
     : '';
 
+  const cardClick = isMapCard ? '' : ` onclick="if(!event.target.closest('a'))window.open('${mapsUrl}','_blank','noopener')"`;
+  const nameContent = isMapCard
+    ? `<a class="card-name-map-link" href="${mapsUrl}" target="_blank" rel="noopener">${escapeHTML(entry.name)}</a>`
+    : escapeHTML(entry.name);
+
   return `
-    <div class="shop-card" onclick="if(!event.target.closest('a'))window.open('${mapsUrl}','_blank','noopener')">
+    <div class="shop-card"${cardClick}>
       <div class="card-info">
-        <h2 class="card-name">${escapeHTML(entry.name)}</h2>
+        <h2 class="card-name">${nameContent}</h2>
         <span class="card-location">${escapeHTML(location)}</span>
       </div>
       <div class="card-flag-col">${flagImg}</div>
@@ -402,7 +407,7 @@ function updateMapMarkers(filtered) {
       }
     });
 
-    const infoWindow = new google.maps.InfoWindow({ content: cardHTML(entry), maxWidth: 300 });
+    const infoWindow = new google.maps.InfoWindow({ content: cardHTML(entry, true), maxWidth: 300 });
 
     marker.addListener('click', () => {
       markers.forEach(m => m._iw?.close());
