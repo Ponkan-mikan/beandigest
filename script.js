@@ -29,6 +29,7 @@ function init(data) {
   renderCards();
   bindEvents();
   initBackground();
+  initLogoAnimation();
 }
 
 // ---- Background Animation ----
@@ -249,9 +250,9 @@ function cardHTML(entry) {
     : '';
 
   return `
-    <div class="shop-card">
+    <div class="shop-card" onclick="if(!event.target.closest('a'))window.open('${mapsUrl}','_blank','noopener')">
       <div class="card-info">
-        <h2 class="card-name"><a class="card-name-link" href="${mapsUrl}" target="_blank" rel="noopener">${escapeHTML(entry.name)}</a></h2>
+        <h2 class="card-name">${escapeHTML(entry.name)}</h2>
         <span class="card-location">${escapeHTML(location)}</span>
       </div>
       <div class="card-flag-col">${flagImg}</div>
@@ -448,4 +449,83 @@ function countryFlagImg(cc) {
 function escapeHTML(str) {
   if (!str) return '';
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+// ---- Logo Font Animation ----
+function initLogoAnimation() {
+  const el = document.querySelector('.brand-name');
+  const text = 'BeanDigest';
+  const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+  const defaultFont = {
+    family: "'Playfair Display', Georgia, serif",
+    weight: '700',
+    size: '24px',
+    spacing: 'normal'
+  };
+
+  const altFonts = [
+    { family: "'Cormorant Garamond', serif",  weight: '600', size: '27px', spacing: '0.02em' },
+    { family: "'Bebas Neue', sans-serif",      weight: '400', size: '29px', spacing: '0.08em' },
+    { family: "'Cinzel', serif",               weight: '700', size: '21px', spacing: '0.06em' },
+    { family: "'DM Serif Display', serif",     weight: '400', size: '25px', spacing: '0.01em' },
+    { family: "'Josefin Sans', sans-serif",    weight: '600', size: '22px', spacing: '0.12em' },
+    { family: "'Abril Fatface', serif",        weight: '400', size: '26px', spacing: '0.01em' },
+    { family: "'Libre Baskerville', serif",    weight: '700', size: '22px', spacing: '0.01em' },
+    { family: "'Bodoni Moda', serif",          weight: '700', size: '24px', spacing: '0.03em' },
+    { family: "'Old Standard TT', serif",      weight: '700', size: '23px', spacing: '0.02em' },
+    { family: "'Pacifico', cursive",           weight: '400', size: '22px', spacing: '0.01em' },
+    { family: "'Bangers', cursive",            weight: '400', size: '30px', spacing: '0.06em' },
+    { family: "'Fredoka One', cursive",        weight: '400', size: '25px', spacing: '0.02em' },
+    { family: "'Lobster', cursive",            weight: '400', size: '24px', spacing: '0.01em' },
+    { family: "'Righteous', sans-serif",       weight: '400', size: '23px', spacing: '0.04em' },
+  ];
+
+  function applyFont(font) {
+    el.style.fontFamily    = font.family;
+    el.style.fontWeight    = font.weight;
+    el.style.fontSize      = font.size;
+    el.style.letterSpacing = font.spacing;
+  }
+
+  async function scramble(toFont) {
+    const arr = text.split('');
+
+    // % 表示中は小さいサイズにして幅の膨らみを抑える
+    el.style.color = '#C8860A';
+    el.style.fontSize = '16px';
+
+    // chars → '%' 順次置換
+    for (let i = 0; i < arr.length; i++) {
+      arr[i] = '%';
+      el.textContent = arr.join('');
+      await sleep(28);
+    }
+
+    await sleep(100);
+    applyFont(toFont); // 正規フォント＋サイズを復元
+    await sleep(80);
+
+    // '%' → chars 順次復元
+    for (let i = 0; i < arr.length; i++) {
+      arr[i] = text[i];
+      el.textContent = arr.join('');
+      await sleep(28);
+    }
+    el.style.color = '';
+  }
+
+  async function run() {
+    let idx = 0;
+    await sleep(6000);
+    while (true) {
+      await scramble(altFonts[idx]);
+      await sleep(6000);
+      await scramble(defaultFont);
+      await sleep(6000);
+      idx = (idx + 1) % altFonts.length;
+    }
+  }
+
+  run();
 }
